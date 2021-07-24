@@ -1,11 +1,10 @@
 import cv2
-import numpy as np
 from matplotlib import pyplot as plt
+
 
 # image path
 
 def runHistograma(path):
-
     # using imread()
     img = cv2.imread(path, cv2.IMREAD_GRAYSCALE)
     cv2.imshow('Cat', img)
